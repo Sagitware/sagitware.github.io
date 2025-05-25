@@ -1,7 +1,7 @@
 {
   "name": "sagitware",
   "version": "0.1.0",
-  "homepage": "https://sagitware.github.io/react-gh-pages",
+  "homepage": "https://sagitware.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
