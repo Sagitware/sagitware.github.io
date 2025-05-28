@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksagitware=self.webpackChunksagitware||[]).push([[375],{375:(e,s,a)=>{a.r(s),a.d(s,{default:()=>n});var i=a(43),t=a(579);const h=(0,i.lazy)((()=>Promise.resolve().then(a.bind(a,766)))),l=(0,i.lazy)((()=>a.e(538).then(a.bind(a,538)))),n=()=>(0,t.jsxs)(h,{children:[(0,t.jsx)(l,{}),(0,t.jsx)("h1",{children:"Welcome to the Home Page"}),(0,t.jsx)("p",{children:"This is the home page of our application."}),(0,t.jsx)("p",{children:"Feel free to explore the features and functionalities."})]})}}]);
+//# sourceMappingURL=375.be1378f4.chunk.js.map
