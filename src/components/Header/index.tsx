@@ -25,10 +25,14 @@ const Header = () => {
   const MenuItem = () => {
     const scrollTo = (id: string) => {
       const element = document.getElementById(id) as HTMLDivElement;
-      element.scrollIntoView({
-        behavior: "smooth",
-      });
-      setVisibility(false);
+      if (element) {
+        element.scrollIntoView({
+          behavior: "smooth",
+        });
+        setVisibility(false);
+      } else {
+        console.warn(`Element with id "${id}" not found`);
+      }
     };
     return (
       <>

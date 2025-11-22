@@ -1,15 +1,16 @@
 import { lazy, Suspense } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import routes from "./config";
 import { Styles } from "../styles/styles";
 import Header from "../components/Header";
 
 const Routers = () => {
   return (
-    <Suspense fallback={null}>
+    <Suspense fallback={<div style={{ padding: '2rem', textAlign: 'center' }}>Loading...</div>}>
       <Styles />
       <Header />
         <Routes>
+          <Route path="/" element={<Navigate to="/home" replace />} />
           {routes.map((routeItem) => {
             const Component = lazy(() => import(`../pages/${routeItem.component}`));
             return (
