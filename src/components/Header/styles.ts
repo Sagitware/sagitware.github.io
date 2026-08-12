@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 import { MenuOutlined } from "@ant-design/icons";
 import React from "react";
 
@@ -12,7 +11,7 @@ export const HeaderSection = styled("header")`
   }
 `;
 
-export const LogoContainer = styled(Link)`
+export const LogoContainer = styled.a`
   display: flex;
 `;
 
